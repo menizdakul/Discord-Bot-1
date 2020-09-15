@@ -41,11 +41,11 @@ async def on_command_error(ctx, error):
 @client.event
 async def on_message(message):
     global counter
-    if message.author.id == 733312139162288148:
-        if counter == 15:
+    if message.author.id == 380489674004889620:
+        if counter == 20:
             channel = message.channel
-            my_id = '<@733312139162288148>'
-            typee = await channel.send(f"{my_id} your opinion is not needed.")
+            my_id = '<@380489674004889620>'
+            typee = await channel.send(f"{my_id} Silence women! Ur opinion was not needed.")
             time.sleep(2)
             await typee.delete()
             counter = 1
