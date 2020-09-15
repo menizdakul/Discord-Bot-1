@@ -124,4 +124,4 @@ async def annoy(ctx, member: discord.Member ):
     verified_role = get(member.guild.roles, name='Verified')
     await member.remove_roles(verified_role)
 
-client.run('NzMxMjQ3MDk3NTUwMjA5MTM5.XwjRKw.Q0xWTO2kGlUszA_dmgR1cSBeMhU')
+client.run('NzMxMjQ3MDk3NTUwMjA5MTM5.XwjQ7Q.2fi9tU2ncCzW8OLRNV77A5XgKmQ')
